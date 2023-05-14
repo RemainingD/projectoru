@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Сертификат</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			background: blue;
+		}
+		.wrapper {
+			position: relative;
+			margin: auto;
+			width: 1440px;
+			height: 4041px;
+			background: white;
+		}
+		.header {
+			position: relative;
+			display: flex;
+			padding-top: 50px;
+			padding-left: 223px;
+			width: 987px;
+			height: 126px;
+			background: white;
+		}
+		.text {
+			margin: 50px 0px 0px 200px;
+			color: black;
+			text-shadow: 2px 3px 5px black;
+			font-weight: bold;
+			text-decoration: none;
+			font-size: 24px;
+
+		}
+		.text2 {
+			text-decoration: none;
+			margin: 50px 0px 0px 60px;
+			font-weight: bold;
+			font-size: 24px;
+			color: black;
+		}
+		.ourlesson {
+			font-family: sans-serif;
+			display: flex;
+			width: 1440px;
+			height: 1410px;
+			background: black;
+			margin-top: 73px;
+		}
+		.information {
+			position: relative;
+			display: flexS;
+			width: 994px;
+			height: 500px;
+			background: #dff7ff;
+			border-radius: 40px;
+			margin: 27px 0px 0px 223px;
+		}
+		.sus {
+			padding: 96px 419px 61px 60px; 
+			font-size: 40px; 
+			font-weight: bold;
+			width: 515px;
+			height: 343px;
+
+		}
+		.pupsik {
+			width: 250px;
+			height: 50px;
+			background: #3d3bff;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+			border-radius: 10px;
+			margin-left: 70px;
+			margin-top: 49px;
+		}
+		.flex {
+			width: 300px;
+			height: 400px;
+			background: white;
+			border-radius: 15px;
+			margin: 60px 47px 0px 0px;
+		}
+		.pupsik2 {
+			width: 250px;
+			height: 50px;
+			background: #3d3bff;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+			border-radius: 10px;
+			margin-left: 25px;
+			margin-top: 29px;
+		}
+		.reviews {
+			position: relative;
+			position: absolute;
+			width: 1440px;
+			height: 542px;
+			top: 2256px;
+
+		}
+		.review {
+			position: relative;
+			width: 700px;
+			height: 350px;
+			margin: auto;
+			margin-top: 107px;
+			background: #F7F7F5;
+			border-radius: 20px;
+			box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.5);
+
+		}
+		.otziv {
+			position: absolute;
+			left: 223px;
+			font-family: sans-serif;
+			font-style: normal;
+			font-weight: 900;
+			font-size: 40px;
+            line-height: 47px;
+		}
+		.radius {
+			position: absolute;
+			width: 50px;
+			height: 50px;
+			top: 30px;
+			left: 30px;
+			background: #000000;
+			border-radius: 50px;
+		}
+		.fuf {
+			position: absolute;
+			left: 103px;
+			top: 43px;
+			
+			font-family: sans-serif;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 23px;
+		}
+		.fuf2 {
+			position: absolute;
+			left: 55px;
+			width: 600px;
+			top: 105px;
+			justify-content: left;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 23px;
+		}
+		.slider {
+			position: absolute;
+			box-sizing: border-box;
+			width: 25px;
+			height: 25px;
+			border: 1px solid black;
+            border-radius: 35px;
+            margin-top: 60px;
+            margin-left: 662px;
+		}
+		.slider2 {
+			position: absolute;
+			box-sizing: border-box;
+			width: 25px;
+			height: 25px;
+			border: 1px solid black;
+            border-radius: 35px;
+            margin-top: 60px;
+            margin-left: 752px;
+		}
+		.info {
+			width: 994px;
+			height: 882px;
+			border: 3px solid black;
+			border-radius: 20px 0px 20px 20px;
+		}
+		.yaspalilsya {
+			position: absolute;
+			margin-left: 1170px;
+			margin-top: 681px;
+			border-top: 52px solid white;
+			border-left: 52px solid transparent;
+					}
+		.yaspalilsya2 {
+			margin-top: 681px;
+			position: absolute;
+			margin-left: 1170px;
+			border-bottom: 52px solid black;
+			border-right: 52px solid transparent;
+			float: right;
+		}
+		.ininfo {
+			margin-left: 70px;
+			margin-top: 53px;
+			font-family: sans-serif;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 47px;
+			color: #000000;
+		}
+		hr {
+		    height: 0px;
+            width: 894px;
+            border-radius: nullpx;
+            margin: 30px 0px 0px 50px;
+            background-color: black;
+		}
+		.info2 {
+			font-size: 24px;
+			margin: 30px 0px 0px 50px;
+			font-family: sans-serif;
+		}
+		.hr {
+		    height: 0px;
+            width: 894px;
+            border-radius: nullpx;
+            margin: 53px 0px 0px 50px;
+		}
+		.infoorig {
+			width: 994px;
+			height: 982px;
+			margin: 682px 0px 0px 223px;
+		}
+		.pupsik3 {
+			width: 360px;
+			height: 50px;
+			background: #3d3bff;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+			border-radius: 10px;
+			margin-top: 50px;
+			margin-left: 317px;
+		}
+		.footer {
+			display: flex;
+			position: relative;
+			width: 1440px;
+			height: 141px;
+			background: black;
+			margin: 50px 0px 0px 0px;
+		}
+		.text3 {
+			margin-top: 30px;
+			margin-left: 345.5px;
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
+			font-size: 24px;
+
+		}
+		.text4 {
+			text-decoration: none;
+			margin-top: 30px;
+			margin-left: 60px;
+			font-weight: bold;
+			font-size: 24px;
+			color: white
+		}
+		.krug  {
+			position: absolute;
+			width: 26px;
+			height: 26px;
+  			display:inline-block;
+  			background:
+  			linear-gradient(#fff,#fff),
+  		    linear-gradient(#fff,#fff),
+  	     	 #000;
+  			background-position:center;
+  			background-size: 50% 2px,2px 50%;
+ 			background-repeat:no-repeat;
+ 			margin: 229px 0px 0px 919px;
+ 			border: 1px solid black;
+ 			background-color: #555353;
+		}
+		.end {
+			border-radius: 50%;
+		}
+		.krug2 {
+			position: absolute;
+			width: 26px;
+			height: 26px;
+  			display:inline-block;
+  			background:
+  			linear-gradient(#000,#000),
+  		    linear-gradient(#000,#000),
+  	     	 #000;
+  			background-position:center;
+  			background-size: 50% 2px,2px 50%;
+ 			background-repeat:no-repeat;
+ 			margin: 327px 0px 0px 919px;
+ 			border: 1px solid black;
+ 			background-color: white;
+		}
+		.end2 {
+			border-radius: 50%;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="wrapper">
+	<div class="header">
+		<img src="C:\Users\zhumy\Downloads\Logo.png">
+		<a style="width: 145px; text-align: left;" href="#" class="text">Наши курсы</a>
+		<a style="width: 97.5px;" href="#" class="text2">Проекты</a>
+		<a style="width: 86.25px" href="#" class="text2">Галерея</a>
+		<a style="width: 80.5px;" href="#" class="text2">О нас</a>
+	</div>
+	<div class="information">
+		<div class="sus">
+			<p style="font-size: 40px; font-weight: bold; font-family: serif;">Курсы программирования<br> и дизайна в Актау</p>
+			<p style="font-size: 24px; font-weight: normal; margin: 10px 0px 0px 0px;" >Курсы программирования и дизайна в Актау.<br> Для тех, кто хочет стать программистом или дизайнером. Работать в IT и любой<br> креативной индустрии. Достойно<br> зарабатывать делая то, что любишь.</p>
+			<div style="line-height: 50px; font-size: 20px; text-align: center; color: white;"class="pupsik"><a style="text-decoration: none; color: white;" href="#">Бесплатный урок</a></div>
+		</div>
+		<img style="position: absolute; top: 99px; left: 536px;" src="C:\Users\zhumy\Downloads\Frame 2.jpg">
+	</div>
+	<div class="ourlesson">
+		<div style="margin: 60px 47px 0px 223px;" class="flex">
+			<img style="border-radius: 15px 15px 0px 0px;" src="C:\Users\zhumy\Downloads\курс-по-unity-1536x752.jpg">
+			<p style="font-size: 22px; text-align: center; margin: 20px 0px 0px 0px; font-weight: bold; font-family: sans-serif;">Курс по созданию<br>
+                видеоигр в Unity</p>
+                <p style="font-size: 20px; text-align:  center; margin: 30px 0px 0px 0px">Для тех, кто хочет стать<br> разработчиком видеоигр</p> 
+                <div style="line-height: 50px; font-size: 20px; text-align: center; color: white;"class="pupsik2"><a style="text-decoration: none; color: white;" href="#">Бесплатный урок</a></div>  
+		</div>
+		<div class="flex">
+			<img style="border-radius: 15px 15px 0px 0px;" src="C:\Users\zhumy\Downloads\Курс-по-веб-разработке-с-JavaScript-HTML-CSS-в-Актау-min-1536x752.jpg">
+			<p style="font-size: 22px; text-align: center; margin: 20px 0px 0px 0px; font-weight: bold;">Курс по веб-разработке<br> 
+с JavaScript, HTML, CSS</p>
+ <p style="font-size: 20px; text-align:  center; margin: 30px 0px 0px 0px">Для тех, кто хочет стать<br> 
+веб-разработчиком</p> 
+<div style="line-height: 50px; font-size: 20px; text-align: center; color: white;"class="pupsik2"><a style="text-decoration: none; color: white;" href="#">Бесплатный урок</a></div> 
+		</div>
+		<div class="flex">
+			<img style="border-radius: 15px 15px 0px 0px;" src="C:\Users\zhumy\Downloads\курс-по-веб-дизайну-с-figma-актау-min-1536x752.jpg">
+			<p style="font-size: 22px; text-align: center; margin: 20px 0px 0px 0px; font-weight: bold;">Курс по веб-дизайну в Figma</p>
+			 <p style="font-size: 20px; text-align:  center; margin: 30px 0px 0px 0px">Для тех, кто хочет стать 
+веб-дизайнером</p> 
+<div style="line-height: 50px; font-size: 20px; text-align: center; color: white;"class="pupsik2"><a style="text-decoration: none; color: white;" href="#">Бесплатный урок</a></div>
+		</div>
+		<div style="margin: 507px 47px 0px 223px; position: absolute;"class="flex">
+			<img style="border-radius: 15px 15px 0px 0px;" src="C:\Users\zhumy\Downloads\Scratch 1.jpg">
+			<p style="font-size: 22px; text-align: center; margin: 20px 0px 0px 0px; font-weight: bold;">Курс программирования<br>
+в Scratch</p>
+<p style="font-size: 20px; text-align:  center; margin: 30px 0px 0px 0px">Программирование для<br> 
+детей от 8 лет.</p> 
+	<div style="line-height: 50px; font-size: 20px; text-align: center; color: white;"class="pupsik2"><a style="text-decoration: none; color: white;" href="#">Бесплатный урок</a></div>
+		</div>
+		<div style="margin: 507px 47px 0px 570px; position: absolute;"class="flex">
+			<img style="border-radius: 15px 15px 0px 0px;" src="C:\Users\zhumy\Downloads\Artboard-min-1536x752.jpg">
+		<p style="font-size: 22px; text-align: center; margin: 20px 0px 0px 0px; font-weight: bold;">Курс по рисованию<br> персонажей в Photoshop</p>
+		<p style="font-size: 20px; text-align:  center; margin: 30px 0px 0px 0px">Для тех, кто хочет стать<br> художником</p> 
+		<div style="line-height: 50px; font-size: 20px; text-align: center; color: white;"class="pupsik2"><a style="text-decoration: none; color: white;" href="#">Бесплатный урок</a></div>
+</div>
+		<div style="margin: 507px 47px 0px 920px; position: absolute;"class="flex">
+			<img style="border-radius: 15px 15px 0px 0px;" src="C:\Users\zhumy\Downloads\Курс-по-3D-моделированию-Актау-min-1536x752.jpg">
+			<p style="font-size: 22px; text-align: center; margin: 20px 0px 0px 0px; font-weight: bold;">Курс 3D моделирования в<br> Blender, ZBrush</p>
+			<p style="font-size: 20px; text-align:  center; margin: 30px 0px 0px 0px">Для тех, кто хочет стать<br>
+веб-дизайнером</p> 
+<div style="line-height: 50px; font-size: 20px; text-align: center; color: white;"class="pupsik2"><a style="text-decoration: none; color: white;" href="#">Бесплатный урок</a></div>
+		</div>
+		<div style="margin: 954px 47px 0px 223px; position: absolute;"class="flex">
+			<img style="border-radius: 15px 15px 0px 0px;" src="C:\Users\zhumy\Downloads\Photoshop-с-нуля-актау-1536x752.jpg">
+			<p style="font-size: 22px; text-align: center; margin: 40px 0px 0px 0px; font-weight: bold;">Курс Photoshop с нуля</p>
+			<p style="font-size: 20px; text-align:  center; margin: 30px 0px 0px 0px">Для тех, кто хочет стать<br>
+	профи в Photoshop</p> 
+	<div style="line-height: 50px; font-size: 20px; text-align: center; color: white;"class="pupsik2"><a style="text-decoration: none; color: white;" href="#">Бесплатный урок</a></div>
+		</div>
+		<div style="margin: 954px 47px 0px 570px; position: absolute;"class="flex">
+			<img style="border-radius: 15px 15px 0px 0px;" src="C:\Users\zhumy\Downloads\Аниме-манга-актау-1-1536x752.jpg">
+			<p style="font-size: 22px; text-align: center; margin: 40px 0px 0px 0px; font-weight: bold;">Курс по аниме и манга</p>
+			<p style="font-size: 20px; text-align:  center; margin: 30px 0px 0px 0px">Для тех, кто хочет стать<br> 
+	профи в аниме и манга</p> 
+	<div style="line-height: 50px; font-size: 20px; text-align: center; color: white;"class="pupsik2"><a style="text-decoration: none; color: white;" href="#">Бесплатный урок</a></div>
+		</div>
+	</div>
+	<div class="reviews">
+		<p class="otziv">Отзывы</p>
+		<div class="review">
+			<div class="radius"></div>
+			<p class="fuf">Марика Нурмухамбет</p>
+			<p class="fuf2">Роман, Рафаэль и вся школа программирования qiber school!<br>
+			 Спасибо Вам за терпение , порядочность и за перспективы, которые вы даете нашим детям ведете к успешному и обеспеченному будущему. За год обучения мой сын Бакдаулет научился у вас писать собственные программы. 😊 Очень хотелось бы, чтобы это были не просто курсы программирования, а лицей, гимназия. С уклоном программирования 😊 Еще раз Спасибо, за багаж знаний в области IT нашим детям !😊🍓🍓🍓🎉🎉🎉</p>
+		</div>
+		<div style="text-align: center; font-family: sans-serif;" class="slider"><</div>
+		<div style="text-align: center; font-family: sans-serif;"  class="slider2">></div>
+		<div style="width: 116px; height: 25px; margin: auto; margin-top: 60px; text-align: center; font-size: 14px; font-family: sans-serif; line-height: 25px;">4 / 15</div>
+	</div>
+	<div class="yaspalilsya"></div>	
+	<div class="yaspalilsya2"></div>
+	<div class="infoorig">
+	<div class="info">
+		<div class="krug end"></div>
+		<div class="krug2 end2"></div>
+		<div style="margin: 422px 0px 0px 919px;" class="krug2 end2"></div>
+		<div style="margin: 512px 0px 0px 919px;" class="krug2 end2"></div>
+		<div style="margin: 610px 0px 0px 919px;" class="krug2 end2"></div>
+		<div style="margin: 708px 0px 0px 919px; transform: rotate(45deg);" class="krug2 end2"></div>
+		<p class="ininfo">Программируя с нами,<br> 
+Ваш ребенок:</p>
+    <hr class="hr">
+    <p class="info2">1. Будет готов к будущему</p>
+    <hr>
+    <p class="info2">2. Обретет любимое дело</p>
+    <hr>
+    <p class="info2">3. Станет увереннее в своих силах</p>
+    <hr>
+    <p class="info2">4. Будет побеждать в олимпиадах</p>
+    <hr>
+    <p class="info2">5. Подтянет математику</p>
+    <hr>
+    <p class="info2">6. Улучшит речь и логику</p>
+    <div style="width: 700px;; font-size: 20px; margin: 30px 0px 0px 50px; font-weight: bold;">Дело в том, что программирование улучшает наше логическое мышление и умение формулировать мысль. Эти навыки, очень важны в повседневном общении.</div>
+    <hr>
+	</div> 
+	<div style="line-height: 50px; font-size: 20px; text-align: center; color: white;"class="pupsik3"><a style="text-decoration: none; color: white;" href="#">Записаться на бесплатный урок</a></div>
+    </div>
+    <div class="footer">
+    	<a style="width: 145px; text-align: left;" href="#" class="text3">Наши курсы</a>
+		<a style="width: 97.5px;" href="#" class="text4">Проекты</a>
+		<a style="width: 86.25px" href="#" class="text4">Галерея</a>
+		<a style="width: 80.5px;" href="#" class="text4">О нас</a>
+		<a style="width: 80.5px;" href="#" class="text4">Instagram</a>
+		<p style="margin: 83px 0px 0px 245px; position: absolute; color: white; font-size: 24px; font-family: sans-serif;" >Qiber School. Крупнейшая школа программирования и дизайна в Актау © 2017-2022</p>
+    </div>
+    </div>
+</div>
+    
+</body>
+</html>
